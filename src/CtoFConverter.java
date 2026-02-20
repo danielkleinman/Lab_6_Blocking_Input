@@ -17,7 +17,7 @@ class CtoFConverter {
         else
             {
                 trash = in.nextLine();
-                System.out.println("You inputted :" + trash + " which is not a number. Please input a number.");
+                System.out.println("You inputted: " + trash + " which is not a number. Please input a number.");
             }
         }while(!done);
         F = (C * 9 / 5) + 32;
